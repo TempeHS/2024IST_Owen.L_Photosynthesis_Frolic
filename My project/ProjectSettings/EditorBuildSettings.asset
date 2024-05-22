@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Meet the Grahams.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Not Like Us.unity
+    guid: 4f691168af8356548ba77f61537200a6
   m_configObjects: {}

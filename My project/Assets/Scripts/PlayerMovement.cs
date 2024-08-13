@@ -8,7 +8,6 @@ public class PlayerMovement : MonoBehaviour
     private float speed = 8f;
     private float jumpingPower = 24f;
     private bool isFacingRight = true;
-    public CoinManager cm;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -52,12 +51,5 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2d(Collider2D other)
-    {
-        if(other.gameObject.CompareTag("Coin"))
-        {
-            cm.coinCount++;
-        }
-
-}
+   
 }

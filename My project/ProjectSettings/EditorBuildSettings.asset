@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 0eabc0065c9fa704081f7817c406b54f
   - enabled: 1
-    path: Assets/Scenes/Meet the Grahams.unity
+    path: Assets/Scenes/Level 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Not Like Us.unity
+    path: Assets/Scenes/Level 2.unity
     guid: 4f691168af8356548ba77f61537200a6
+  - enabled: 1
+    path: Assets/Scenes/PhotoSynthesis Frolic.unity
+    guid: 73687ae2b7421ca4ca4db110cd95a2e5
   m_configObjects: {}

@@ -9,6 +9,7 @@ public class CoinCounter : MonoBehaviour
 
     public TMP_Text coinText;
     public int currentCoins = 0;
+  
     // Start is called before the first frame update
    void Awake()
    {

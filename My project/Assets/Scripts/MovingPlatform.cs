@@ -4,27 +4,38 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-    public Transform TutEnemy;
-     public Transform startPoint;
-      public Transform endPoint;
-      public float speed = 1.5f;
+      public float speed;
+      public GameObject pointA;
+      public GameObject pointB;
+      private Rigidbody2D rb;
+      private Transform currentPoint;
     
     int direction = 1;
 
        private void Update()
     {
-       Vector2 target = currentMovementTarget();
 
-       TutEnemy.position = Vector2.Lerp(TutEnemy.position, target, speed * Time.deltaTime); 
-
-       float distance = (target - (Vector2)TutEnemy.position).magnitude;
-
-       if(distance <= 0.1f)
+   Vector2 point = currentPoint.position - transform.position;
+   if(currentPoint == pointB.transform)
+   {
+    rb.velocity = new Vector2(speed, 0);
+   }
+   else 
+   {
+    rb.velocity = new Vector2(-speed, 0);
+   }
+    if(Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointA.transform)
     {
-        direction *= -1;
+        flip();
+        currentPoint = pointA.transform;
+    }
+    
+    if(Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointB.transform)
+    {
+        flip();
+        currentPoint = pointB.transform;
     }
     }
-
 Vector2 currentMovementTarget()
 {
     if (direction == 1)
@@ -37,13 +48,18 @@ return startPoint.position;
     }
 }
    
+private void flip()
+{
+    Vector3 localScale = transform.localScale;
+    localScale.x *= -1;
+    transform.localScale = localScale;
+}
+
     private void OnDrawGizmos()
     {
-        if(TutEnemy!=null && startPoint!=null && endPoint!=null)
-        {
-            Gizmos.DrawLine(TutEnemy.transform.position,startPoint.position);
-            Gizmos.DrawLine(TutEnemy.transform.position,endPoint.position);
-        }
+        Gizmos.DrawWireSphere(pointA.transform.position, 0.5f);
+        Gizmos.DrawWireSphere(pointB.transform.position, 0.5f);
+        Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
     }
     void Start()
     {

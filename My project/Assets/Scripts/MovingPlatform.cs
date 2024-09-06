@@ -12,7 +12,7 @@ public class MovingPlatform : MonoBehaviour
     
     int direction = 1;
 
-       private void Update()
+    void Update()
     {
 
    Vector2 point = currentPoint.position - transform.position;
@@ -36,17 +36,7 @@ public class MovingPlatform : MonoBehaviour
         currentPoint = pointB.transform;
     }
     }
-Vector2 currentMovementTarget()
-{
-    if (direction == 1)
-    {
-return startPoint.position;
-    }
-    else
-    {
-        return endPoint.position;
-    }
-}
+
    
 private void flip()
 {

@@ -627,7 +627,8 @@ GameObject:
   - component: {fileID: 69399299}
   - component: {fileID: 69399303}
   - component: {fileID: 69399304}
-  m_Layer: 6
+  - component: {fileID: 69399305}
+  m_Layer: 0
   m_Name: TutEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -679,7 +680,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0031833649, y: -0.020416394}
+  m_Offset: {x: 0.0031833947, y: -0.020416394}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -690,7 +691,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6099911, y: 0.48847172}
+  m_Size: {x: 0.5751317, y: 0.48847172}
   m_EdgeRadius: 0
 --- !u!212 &69399301
 SpriteRenderer:
@@ -798,6 +799,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &69399305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69399298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a57ae75fb992045b6e9fdd1addaaf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  pointA: {fileID: 787729546}
+  pointB: {fileID: 1572112812}
 --- !u!1001 &72667561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2854,7 +2870,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -331.20993, y: -220.75}
+  m_AnchoredPosition: {x: -331.12, y: -220.78}
   m_SizeDelta: {x: 138.4, y: 39.424}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &701924328
@@ -3436,7 +3452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 787729547}
   m_Layer: 0
-  m_Name: startPoint
+  m_Name: pointA
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5487,7 +5503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1572112813}
   m_Layer: 0
-  m_Name: endPoint
+  m_Name: pointB
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5800,7 +5816,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1695046855}
-  - component: {fileID: 1695046854}
   m_Layer: 0
   m_Name: PlatformController
   m_TagString: Untagged
@@ -5808,22 +5823,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1695046854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1695046853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75a57ae75fb992045b6e9fdd1addaaf4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TutEnemy: {fileID: 69399302}
-  startPoint: {fileID: 787729547}
-  endPoint: {fileID: 1572112813}
-  speed: 1.5
 --- !u!4 &1695046855
 Transform:
   m_ObjectHideFlags: 0

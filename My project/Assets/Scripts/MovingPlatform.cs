@@ -12,6 +12,11 @@ public class MovingPlatform : MonoBehaviour
     
     int direction = 1;
 
+void Start()
+{
+rb = GetComponent<Rigidbody2D>(); 
+currentPoint = pointB.transform;
+}
     void Update()
     {
 
@@ -24,17 +29,19 @@ public class MovingPlatform : MonoBehaviour
    {
     rb.velocity = new Vector2(-speed, 0);
    }
-    if(Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointA.transform)
+   
+    if(Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointB.transform)
     {
         flip();
         currentPoint = pointA.transform;
     }
     
-    if(Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointB.transform)
+     if(Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointA.transform)
     {
         flip();
         currentPoint = pointB.transform;
     }
+    
     }
 
    
@@ -51,11 +58,6 @@ private void flip()
         Gizmos.DrawWireSphere(pointB.transform.position, 0.5f);
         Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
     }
-    void Start()
-    {
-        
-    }
-
-    
+  
 
 }

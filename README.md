@@ -17,10 +17,7 @@
 
 # Overview
 
-yadayada
-
-
-## Devloper Documentation
+## User Documentation
 
 
 
@@ -35,14 +32,22 @@ yadayada
 - **Monsters**: Dodge Wasps and Ranged Enemys(i was never given a sprite or animations for the ranged enemy)
 - **Goal**: Complete both of the levels by collecting all ten coinswhile dodging Wasps and Ranged Enemies. After collecting all the coins and reaching the final checkpoint you would go to a win screen and then go back to the main menu where you can quit or play again
 
+## Devloper Documentation
+### What I Intended For The Game 
+I worked with the multimedia student **Van** who came up with the original idea and base of the game. The idea that he presnted to me was a a flower was on a journey to find his way back home after falling off of a window. For the Gameplay it was planned to be a platformer pve similar to games as rayman legends and skylanders where you would have to travel through different areas and fight new enemies as you go, at the end once you got back home there was a final boss fight against the Rottweiller.
 
-## Walkthrough
+#### Intention for Collectibles
+For the Collectibles i intended the to be used a sort of currency or skill points so you would be able upgrade your character at the end of every level. The Collectibles are Coins of sun which your character uses to photosyntheize and upgrade its abilities. This would add more varity to the game and would add some replayablity to the game.
 
-## Documentation
+### What I Made 
+#### Photosynthesis Frolic
+This version that i have made is differnt than Van's original idea for the game. instead of a PvE combat platformer i Made a PvE Platformer Runner game where you would try dodge the enmeies instead of fighting them. Collectibles were changed so they didn't give the player power ups but it was changed so it was required for the player to collect all the coins to be able to progress to the next level. I also removed the boss fight aspect as i wanted to take the game in approach similar to the first mario games.
 
-A little explination on how I made the game and the skills I aquired.
+### Walkthrough
 
-## Collaboration
+
+
+### Collaboration
 
 Van Was The Multimedia Partner<p>
 Some of the Sprites that were used<p>

@@ -1,8 +1,8 @@
 
 <h1 align="center">
- <img src="" | width=500>
+ <img src="https://github.com/user-attachments/assets/5209967b-11e7-4cf0-a093-54236a3a6d80" | width=750>
   <br />
- 1# 2024IST_Owen.L_
+  2024IST_Owen.L_
 </h1>
 
 # Photosynthesis Frolic
@@ -39,13 +39,29 @@ I worked with the multimedia student **Van** who came up with the original idea 
 #### Intention for Collectibles
 For the Collectibles i intended the to be used a sort of currency or skill points so you would be able upgrade your character at the end of every level. The Collectibles are Coins of sun which your character uses to photosyntheize and upgrade its abilities. This would add more varity to the game and would add some replayablity to the game.
 
+
+
+### The Aim For The Task
+
+Tha aim of the task is to create a well designed 2D game using unity. I must use my knowledge of programming to complete a fully work game. I also must write and produce a README.md within github. The README.md can be used to demonstrate development skills to a possible future employer.
+
 ### What I Made 
+
 #### Photosynthesis Frolic
-This version that i have made is differnt than Van's original idea for the game. instead of a PvE combat platformer i Made a PvE Platformer Runner game where you would try dodge the enmeies instead of fighting them. Collectibles were changed so they didn't give the player power ups but it was changed so it was required for the player to collect all the coins to be able to progress to the next level. I also removed the boss fight aspect as i wanted to take the game in approach similar to the first mario games.
+This version that i have made is differnt than Van's original idea for the game. instead of a PvE combat platformer i Made a PvE Platformer Runner game where you would try dodge the enmeies instead of fighting them. Collectibles were changed so they didn't give the player power ups but it was changed so it was required for the player to collect all the coins to be able to progress to the next level. I also removed the boss fight aspect as I wanted to make the game based more on the movement than the combat.
+
+### Characters
+
+#### Plant
+<img width="100" alt="image" src="https://github.com/user-attachments/assets/ff7e3381-ae3e-4341-a144-90f9122c5543">
+
 
 ### Walkthrough
+Video Link:
 
-
+### Level Design
+Level 1 is a simple platformer bit it does have some unique movments required
+Level 2 is based off of the first level from the first ever mario game. while it is based off of it i have changed the layout of the platforms, enemy positioning and the end of the level
 
 ### Collaboration
 

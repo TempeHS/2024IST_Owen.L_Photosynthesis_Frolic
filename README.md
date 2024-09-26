@@ -5,6 +5,8 @@
  1# 2024IST_Owen.L_
 </h1>
 
+# Photosynthesis Frolic
+**Photosynthisis** **Frolic** was a concept originally created by my multimedia partner **Van.** This was orignally supposed to be a 2D platformer pve game where would would get many different power ups. The audience for the game is Teens to provide a fast paced challange. While not the exact same as the original idea the core concepts were still implemented
  # Table Of Contents
 (Dosen't Work)<p>
 1. [Overview](https://github.com/TempeHS/1#2024IST_Owen.L_?tab=readme-ov-file#overview)
@@ -17,15 +19,24 @@
 
 yadayada
 
-## Walkthrough
+
+## Devloper Documentation
 
 
 
-
-## Control Overview
+### Control Overview
 
 ![Movement keys](https://github.com/user-attachments/assets/454e8b96-6cda-46d0-8fb2-5c16e7f2bc46)
 ![Movement keys (1)](https://github.com/user-attachments/assets/3edc0237-ee2e-4298-8301-e5c5dbeecabb)
+
+### Game Objectives
+- **Coins**: Collect all the coins while avoiding the Wasps.
+- **Levels**: The game has two levels. One Intro Duction and One Full Level
+- **Monsters**: Dodge Wasps and Ranged Enemys(i was never given a sprite or animations for the ranged enemy)
+- **Goal**: Complete both of the levels by collecting all ten coinswhile dodging Wasps and Ranged Enemies. After collecting all the coins and reaching the final checkpoint you would go to a win screen and then go back to the main menu where you can quit or play again
+
+
+## Walkthrough
 
 ## Documentation
 

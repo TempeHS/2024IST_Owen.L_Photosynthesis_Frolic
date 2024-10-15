@@ -6,9 +6,9 @@
 </h1>
 
 # Photosynthesis Frolic
-**Photosynthisis** **Frolic** was a concept originally created by my multimedia partner **Van.** This was orignally supposed to be a 2D platformer pve game where would would get many different power ups. The audience for the game is Teens to provide a fast paced challange. While not the exact same as the original idea the core concepts were still implemented
+**Photosynthesis** **Frolic** was a concept originally created by my multimedia partner **Van.** This was orignally supposed to be a 2D platformer PvE game where would would get many different power ups. The audience for the game is Teens to provide a fastly paced challenge. While not the exact same as the original idea the core concepts were still implemented
  # Table Of Contents
-(Dosen't Work)<p>
+(Doesn't Work)<p>
 1. [Overview](https://github.com/TempeHS/1#2024IST_Owen.L_?tab=readme-ov-file#overview)
 2. [Walkthrough](https://github.com/TempeHS/1#2024IST_Owen.L_?tab=readme-ov-file#walkthrough)
 3. [Tutorials](https://github.com/TempeHS/1#2024IST_Owen.L_?tab=readme-ov-file#tutorials)
@@ -30,14 +30,14 @@
 - **Coins**: Collect all the coins while avoiding the Wasps.
 - **Levels**: The game has two levels. One Intro Duction and One Full Level
 - **Monsters**: Dodge Wasps and Ranged Enemys(i was never given a sprite or animations for the ranged enemy)
-- **Goal**: Complete both of the levels by collecting all ten coinswhile dodging Wasps and Ranged Enemies. After collecting all the coins and reaching the final checkpoint you would go to a win screen and then go back to the main menu where you can quit or play again
+- **Goal**: Complete both of the levels by collecting all ten coins while dodging Wasps and Ranged Enemies. After collecting all the coins and reaching the final checkpoint you would go to a win screen and then go back to the main menu where you can quit or play again
 
-## Devloper Documentation
+## Developer Documentation
 ### What I Intended For The Game 
-I worked with the multimedia student **Van** who came up with the original idea and base of the game. The idea that he presnted to me was a a flower was on a journey to find his way back home after falling off of a window. For the Gameplay it was planned to be a platformer pve similar to games as rayman legends and skylanders where you would have to travel through different areas and fight new enemies as you go, at the end once you got back home there was a final boss fight against the Rottweiller.
+I worked with the multimedia student **Van** who came up with the original idea and base of the game. The idea that he presented to me was a a flower was on a journey to find his way back home after falling off of a window. For the Gameplay it was planned to be a platformer PvE similar to games such as rayman legends and skylanders where you would have to travel through different areas and fight new enemies as you go, at the end once you got back home there was a final boss fight against the Rottweiller.
 
 #### Intention for Collectibles
-For the Collectibles i intended the to be used a sort of currency or skill points so you would be able upgrade your character at the end of every level. The Collectibles are Coins of sun which your character uses to photosyntheize and upgrade its abilities. This would add more varity to the game and would add some replayablity to the game.
+For the collectibles I intended the coins to be used as a sort of currency or skill points so you would be able upgrade your character at the end of every level. The Collectibles are Coins of sun which your character uses to photosyntheize and upgrade its abilities. This would add more variety to the game and would add some replay ablity to the game.
 
 
 
@@ -101,9 +101,9 @@ https://www.youtube.com/watch?v=1IJmenD1HOk&t=59s Key Door System in Any 2D Game
 
 https://www.youtube.com/watch?v=5GWRPwuWtsQ&t=1s Simple Coin Collectible System Unity 2D
 
-https://www.youtube.com/watch?v=GG0NYcOQd0k Coin COllectible System 
+https://www.youtube.com/watch?v=GG0NYcOQd0k Coin Collectible System 
 
-https://www.youtube.com/watch?v=--u20SaCCow&t=366s How To Make a Enemy Shoot in Unity 2D
+https://www.youtube.com/watch?v=--u20SaCCow&t=366s How To Make an Enemy Shoot in Unity 2D
 
 https://www.youtube.com/watch?v=vua2a_Z3zlY&t=193s How to Make Moving Platform Unity 
 
@@ -111,4 +111,4 @@ https://www.youtube.com/watch?v=H69PfxOr6bk&t=314s Kill and Respawn Script Unity
 
 https://www.youtube.com/watch?v=DX7HyN7oJjE How to Make Main Menu Unity 
 
-https://www.youtube.com/watch?v=K1xZ-rycYY8 2D Movment in Unity
+https://www.youtube.com/watch?v=K1xZ-rycYY8 2D Movement in Unity

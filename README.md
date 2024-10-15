@@ -57,8 +57,8 @@ This version that i have made is differnt than Van's original idea for the game.
 
 
 ### Walkthrough
-Video Link:
-https://youtu.be/n4qT60DWXX4
+
+https://github.com/user-attachments/assets/9ad500c5-e319-4ad6-9670-1c844fdf528f
 
 ### Level Design
 Level 1 is a simple platformer bit it does have some unique movments required
